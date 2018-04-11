@@ -5,19 +5,28 @@
   <title>Waxom | Homepage</title>
   
 <!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&amp;subset=cyrillic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,800" rel="stylesheet">
+
 <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/offers.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/realization.css">
+  <link rel="stylesheet" href="css/action.css">
+  <link rel="stylesheet" href="css/latestproject.css">
   
 </head>
-<body>
+<body class="no-js">
   
 <!-- Page Header -->
   <header class="page_header">
     <div class="container clearfix">
       <div class="brand">
-        <img class="brand_logo" src="img/logo.png" alt="Waxom Logo" width="180">
-        <h2 class="brand_name">Waxom</h2>
+        <a class="brand_link"><img class="brand_logo" src="img/logo.svg" alt="Waxom Logo" width="180"></a>
+        <h2 class="brand_name visually-hidden">Waxom</h2>
       </div>
       <nav class="navigation_wrapper">
         <ul class="navigation navigation-main">
@@ -44,271 +53,460 @@
     </div>
   </header>
 <!-- /Page Header -->
-<!-- Slide Galary -->
-<section class="offers">
-  <div class="slider">
-    <h2 class="brand_name">Waxom company</h2>
-    <div class="switch_slider">
-      <input class="slide_switch" name="slide switch" type="radio" id="slide_1">
-      <input class="slide_switch" name="slide switch" type="radio" id="slide_2" checked>
-      <input class="slide_switch" name="slide switch" type="radio" id="slide_3">
-      <input class="slide_switch" name="slide switch" type="radio" id="slide_4">
-      <input class="slide_switch" name="slide switch" type="radio" id="slide_5">
-    </div>
-    <div class="contant_slider">
-      <ul class="list_slides">
-        <li class="slide_1">
-        <p class="offers slogan">
-          <span>Unique and Modern Design</span><br>        
-          <strong>Portfolio PSD Template</strong><br>
-          Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id 
 
-quod mazim placerat facer possim assum.</p>          
-            <a href="#" class="start_button">Get started</a>
-        </li>
-        <li class="slide_2">
-        <p class="offers slogan">
-        <span>Other text for slide number 2</span><br>        
-          <strong>Portfolio PSD Template</strong><br>
-          Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id 
-
-quod mazim placerat facer possim assum.</p>       
-            <a href="#" class="start_button">Get started</a>
-        </li>  
-        <li class="slide_3">
-        <p class="offers slogan">
-          <span>Other text for slide number 3</span><br>        
-          <strong>Portfolio PSD Template</strong><br>
-          Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id 
-
-quod mazim placerat facer possim assum.</p>      
-            <a href="#" class="start_button">Get started</a>
-        </li>
-        <li class="slide_4">
-        <p class="offers slogan">
-        <span>Other text for slide number 4</span><br>        
-          <strong>Portfolio PSD Template</strong><br>
-          Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id 
-
-quod mazim placerat facer possim assum.</p>      
-            <a href="#" class="start_button">Get started</a>
-        </li>
-        <li class="slide_5">
-        <p class="offers slogan">
-        <span>Other text for slide number 5</span><br>        
-          <strong>Portfolio PSD Template</strong><br>
-          Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id 
-
-quod mazim placerat facer possim assum.</p>      
-            <a href="#" class="start_button">Get started</a>
-        </li>
-      </ul>
-          <label class="slider_indicator" for="slide_01"></label>
-          <label class="slider_indicator" for="slide_02"></label>
-          <label class="slider_indicator" for="slide_03"></label>
-          <label class="slider_indicator" for="slide_04"></label>
-          <label class="slider_indicator" for="slide_05"></label>
-    </div>
-    <div>
-        <!--<input type="submit" name="prev" value="<">
-        <input type="submit" name="next" value=">">-->
-        <button class="button_prev_slider" type="button">Назад</button>
-        <button class="button_next_slider" type="button">Вперёд</button>
-    </div> 
-  </div>
- </section>
-<!--/Slide galery-->
-<!--Our Services-->
-<section class="Service">
-  <div class="our_services_menu">
-    <h2>Our Services</h2>
-    <ul>
-      <li class="service">
-        <a href="#" class="service_link">
-          <h3 class="service_name">Web & App Design</h3>
-          <p class="service-description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-        </a>
-      </li>
-      <li class="service">
-        <a href="#" class="service_link">
-          <h3 class="service_name">Development</h3>
-          <p class="service-description">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-        </a>
-      </li>
-      <li class="service">
-        <a href="#" class="service_link">
-          <h3 class="service_name">Customization</h3>
-          <p class="service-description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-        </a>
-      </li>
-      <li class="service">
-        <a href="#" class="service_link">
-          <h3 class="service_name">Marketing</h3>
-          <p class="service-description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
-        </a>
-      </li>
-    </ul>
-   </div>
-  </section>
-<!--/Our Services-->
-<!--Realization of Ideas-->
-  <section class="realization">
-    <div class="contant_realization">
-    <h2 class="realization_name">Waxom is Realization of your Ideas</h2>
-    <p class="realization_description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-    </div>
-  </section>
-<!--/Realization for Ideas-->
-<!--Multipurpose-->
-  <section class="multipurpose">
-    <div class="container_multipurpose">
-    <h2 class="multipurpose_name"><span>Waxom</span>Multipurpose WordPress Theme</h2>
-    <p class="rate">Don't Forget to Rate the Template. Thanks so much!</p>
-        <a href="#" class="btn btn-action">Purchase Now</a>
-    </div>
-  </section>
-<!--/Multipurpose-->
-<!--Our Latest Projects-->
-  <section class="lates_projects">
-    <div class="title">
-      <h2 class="title_name">Our Latest Projects.</h2>
-      <p class="title_description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-      <form class="projects_filters"  name="latestproject" action="#" method="post">
-        <input class="projects_filter" name="projects_filter_all" type="radio" id="filter_all">
-        <input class="projects_filter" name="projects_filter_webdesign" type="radio" id="filter_webdesign">
-        <input class="projects_filter" name="projects_filter_mobileapp" type="radio" id="filter_moobileapp">
-        <input class="projects_filter" name="projects_filter_illustration" type="radio" id="filter_illustration">
-        <input class="projects_filter" name="projects_filter_photography" type="radio" id="filter_photography">
-        <label class="lates_projects_filter" for="filter_all">All</label>
-        <label class="lates_projects_filter" for="filter_webdesign">Web Design</label>
-        <label class="lates_projects_filter" for="filter_moobileapp">Mobile App</label>
-        <label class="lates_projects_filter" for="filter_illustration">Illustration</label>
-        <label class="lates_projects_filter" for="filter_photography">Photography</label>
-        <button class="btn btn_filter" type="submit">
-        LOAD MORE</button>
-      </form>
-     <ul class="list_lates_projects">
-       <li class="view_lates_project">
-         <figure class="view_project">
-           <img class="view_img" src="img/project_1.jpg" alt="Claritas Etiam Processus image">
-              <figcaption class="view_header">
-                <p class="view_title">Claritas Etiam Processus</p>
-                <p class="view_category">Photography, Nature</p>
-              </figcaption>
-         </figure>
-         <div class="view_overlay">
-            <a href="#" class="view_link">Перейти</a>
-              <button class="view_zoom" type="button">Увеличить</button>
-            </div>
-       </li>
-       <li class="view_lates_project">
-         <figure class="view_project">
-           <img class="view_img" src="img/project_2.jpg" alt="Quam Nutamus Farum image">
-              <figcaption class="view_header">
-                <p class="view_title">Quam Nutamus Farum</p>
-                <p class="view_category">Graphic Design, Mock-Up</p>
-              </figcaption>
-         </figure>
-         <div class="view_overlay">
-            <a href="#" class="view_link">Перейти</a>
-              <button class="view_zoom" type="button">Увеличить</button>
-            </div>
-       </li>
-       <li class="view_lates_project">
-         <figure class="view_project">
-           <img class="view_img" src="img/project_3.jpg" alt="Usus Legentis Videntur image">
-              <figcaption class="view_header">
-                <p class="view_title">Usus Legentis Videntur</p>
-                <p class="view_category">Photography, Holiday</p>
-              </figcaption>
-         </figure>
-         <div class="view_overlay">
-            <a href="#" class="view_link">Перейти</a>
-              <button class="view_zoom" type="button">Увеличить</button>
-            </div>
-       </li>
-       <li class="view_lates_project">
-         <figure class="view_project">
-           <img class="view_img" src="img/project_4.jpg" alt="Claritas Etiam Processus image">
-              <figcaption class="view_header">
-                <p class="view_title">Claritas Etiam Processus</p>
-                <p class="view_category">Photography, Nature</p>
-              </figcaption>
-         </figure>
-         <div class="view_overlay">
-            <a href="#" class="view_link">Перейти</a>
-              <button class="view_zoom" type="button">Увеличить</button>
-            </div>
-       </li>
-       <li class="view_lates_project">
-         <figure class="view_project">
-           <img class="view_img" src="img/project_5.jpg" alt="Quam Nutamus Farum image">
-              <figcaption class="view_header">
-                <p class="view_title">Quam Nutamus Farum</p>
-                <p class="view_category">Graphic Design, Mock-Up</p>
-              </figcaption>
-         </figure>
-         <div class="view_overlay">
-            <a href="#" class="view_link">Перейти</a>
-              <button class="view_zoom" type="button">Увеличить</button>
-            </div>
-       </li>
-       <li class="view_lates_project">
-         <figure class="view_project">
-           <img class="view_img" src="img/project_6.jpg" alt="Usus Legentis Videntur image">
-              <figcaption class="view_header">
-                <p class="view_title">Usus Legentis Videntur</p>
-                <p class="view_category">Photography, Holiday</p>
-              </figcaption>
-         </figure>
-         <div class="view_overlay">
-            <a href="#" class="view_link">Перейти</a>
-              <button class="view_zoom" type="button">Увеличить</button>
-            </div>
-       </li>
-     </ul>
-    </div>
-  </section>
-<!--/Our Latest Projects-->
-<!--Video Presentation-->
-  <section class="video_presentation">
-    <div class="video_header">
-      <h2 class="video_name">Waxom Video Presentation</h2>
-      <p class="video_description">Investigationes demonstraverunt lectores legere me lius qout ii legunt<br>
-      saepius qui sequitor mutationem  consuetudium</p>
-      <p class="video_time">3:26</p>
-    </div>
-    <button class="btn btn_video" type="submit">Воспроизвести</button>
-  </section>
-<!--/Video Presentation-->
-<!--Excellent for Mobile Devices-->
-  <section class="mobile_devices">
-      <div class="mobile_devices_contant">
-      <h2 class="mobile_devices_contant_title">Excellent for Mobile Devices</h2>
-      <p class="mobile_devices_contant_description">
-      Qisi enim ad veniam, quis nostrud exerci tation ullamcorper suscipit lobortis<br>
-      nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores<br>
-      legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis<br>
-      videntur parum clari, fiant sollemnes in futurum.
-      </p>
-      <ul class="list_features">
-        <li class="features">
-          <p class="features_description">Nam liber tempor cum soluta nobis eleifend option;</p>
-        </li>
-        <li class="features">
-          <p class="features_description">Option congue nihil imperdient doming id quod mazim placerat facer;</p>
-        </li>
-        <li class="features">
-          <p class="features_description">Eodem modo typi, qui nunc nobis videntur parum futurum;</p>
-        </li>
-        <li class="features">
-          <p class="features_description">Investigationes demonstraverunt lectores.</p>
-        </li>
-      </ul>
+<!-- Page Main -->
+  <main class="page_content">
+    <h1 class="visually-hidden">Waxom Company</h1>
+    
+    <!-- Slider -->
+    <section class="offers">
+      <h2 class="visually-hidden">Our offers</h2>
+      <div class="slider">
+        <input id="slide-01" class="slider_switch" type="radio" name="switch" checked>
+        <input id="slide-02" class="slider_switch" type="radio" name="switch">
+        <input id="slide-03" class="slider_switch" type="radio" name="switch">
+        <input id="slide-04" class="slider_switch" type="radio" name="switch">
+        <input id="slide-05" class="slider_switch" type="radio" name="switch">
+        <div class="slider_wrapper">
+          <ul class="slider_content container">
+            <li class="slider_slide slider_slide-01">
+              <p class="offers_slogan">
+                <span>Unique and Modern Design</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+            <li class="slider_slide slider_slide-02">
+              <p class="offers_slogan">
+                <span>Other text for slide number 2</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+            <li class="slider_slide slider_slide-03">
+              <p class="offers_slogan">
+                <span>Other text for slide number 3</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+            <li class="slider_slide slider_slide-04">
+              <p class="offers_slogan">
+                <span>Other text for slide number 4</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+            <li class="slider_slide slider_slide-05">
+              <p class="offers_slogan">
+                <span>Other text for slide number 5</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+          </ul>
+          <div class="slider_indicators">
+            <label class="slider_indicator" for="slide-01"></label>
+            <label class="slider_indicator" for="slide-02"></label>
+            <label class="slider_indicator" for="slide-03"></label>
+            <label class="slider_indicator" for="slide-04"></label>
+            <label class="slider_indicator" for="slide-05"></label>
+          </div>
+        </div>
+        <button class="slider_btn slider_btn-prev" type="button">&#8249;</button>
+        <button class="slider_btn slider_btn-next" type="button">&#8250;</button>
       </div>
-  </section>
-<!--/Excellent for Mobile Devices-->
-<!--Counters-->
-<!--/Counters-->
+    </section>
+    <!-- /Slider -->
+    
+    <!-- Services -->
+    <section class="services">
+      <h2 class="visually-hidden">Our services</h2>
+      <ul class="services_list container clearfix">
+        <li class="services_item">
+          <a class="services_link services_link-app" href="#">
+            <h3 class="services_title">Web & App Design</h3>
+            <p class="services_description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+          </a>
+        </li>
+        <li class="services_item">
+          <a class="services_link services_link-dev" href="#">
+            <h3 class="services_title">Development</h3>
+            <p class="services_description">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+          </a>
+        </li>
+        <li class="services_item">
+          <a class="services_link services_link-cust" href="#">
+            <h3 class="services_title">Customization</h3>
+            <p class="services_description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+          </a>
+        </li>
+        <li class="services_item">
+          <a class="services_link services_link-mark" href="#">
+            <h3 class="services_title">Marketing</h3>
+            <p class="services_description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- /Services -->
+    
+    <!-- Realization -->
+    <section class="realization">
+      <div class="container">
+        <h2 class="realization_title">Waxom is realization of your Ideas</h2>
+        <p class="realization_content">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est<br> etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+      </div>
+    </section>
+    <!-- /Realization -->
+    
+    <!-- Action -->
+    <section class="action">
+      <div class="container">
+        <h2 class="action_title"><span>Waxom</span> Multipurpose WordPress Theme</h2>
+        <p class="action_call">Don't Forget to Rate the Template. Thanks so much!</p>
+        <a href="#" class="btn btn-action">Purchase Now</a>
+      </div>
+    </section>
+    <!-- /Action -->
+    
+    <!-- Latest Project -->
+    <section class="latestproject">
+      <div class="container">
+        <h2 class="latestproject_title">Our Latest Projects</h2>
+        <p class="latestproject_description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam<br> processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <form class="latestproject_categories" name="latestproject" action="#" method="post">
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="all" checked>
+            <span>all</span>
+          </label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="webdesign">
+            <span>web design</span>
+          </label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="mobileapp">
+            <span>mobile app</span>
+          </label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="illustration">
+            <span>illustration</span>
+          </label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="photo">
+            <span>photography</span>
+          </label>
+          <button class="btn btn-filter" type="submit">Load more</button>
+        </form>
+        <ul class="latestproject_list clearfix">
+          <li class="latestproject_project">
+            <figure class="view">
+              <img class="view_img" src="img/view-project-1.jpg" alt="Claritas Etiam Processus image">
+              <figcaption class="view_header">
+                <p class="view_title">Claritas Etiam Processus</p>
+                <p class="view_category">Photography, Nature</p>
+              </figcaption>
+            </figure>
+            <div class="view_overlay">
+              <a href="#" class="view_link">перейти</a>
+              <button class="view_zoom" type="button">увеличить</button>
+            </div>
+          </li>
+          <li class="latestproject_project">
+            <figure class="view">
+              <img class="view_img" src="img/view-project-2.jpg" alt="Quam Nutamus Farum image">
+              <figcaption class="view_header">
+                <p class="view_title">Quam Nutamus Farum</p>
+                <p class="view_category">Graphic Design, Mock-Up</p>
+              </figcaption>
+            </figure>
+            <div class="view_overlay">
+              <a href="#" class="view_link">перейти</a>
+              <button class="view_zoom" type="button">увеличить</button>
+            </div>
+          </li>
+          <li class="latestproject_project">
+            <figure class="view">
+              <img class="view_img" src="img/view-project-3.jpg" alt="Usus Legentis Videntur image">
+              <figcaption class="view_header">
+                <p class="view_title">Usus Legentis Videntur</p>
+                <p class="view_category">Photography, Holiday</p>
+              </figcaption>
+            </figure>
+            <div class="view_overlay">
+              <a href="#" class="view_link">перейти</a>
+              <button class="view_zoom" type="button">увеличить</button>
+            </div>
+          </li>
+          <li class="latestproject_project">
+            <figure class="view">
+              <img class="view_img" src="img/view-project-4.jpg" alt="Claritas Etiam Processus image">
+              <figcaption class="view_header">
+                <p class="view_title">Claritas Etiam Processus</p>
+                <p class="view_category">Photography, Nature</p>
+              </figcaption>
+            </figure>
+            <div class="view_overlay">
+              <a href="#" class="view_link">перейти</a>
+              <button class="view_zoom" type="button">увеличить</button>
+            </div>
+          </li>
+          <li class="latestproject_project">
+            <figure class="view">
+              <img class="view_img" src="img/view-project-5.jpg" alt="Quam Nutamus Farum image">
+              <figcaption class="view_header">
+                <p class="view_title">Quam Nutamus Farum</p>
+                <p class="view_category">Graphic Design, Mock-Up</p>
+              </figcaption>
+            </figure>
+            <div class="view_overlay">
+              <a href="#" class="view_link">перейти</a>
+              <button class="view_zoom" type="button">увеличить</button>
+            </div>
+          </li>
+          <li class="latestproject_project">
+            <figure class="view">
+              <img class="view_img" src="img/view-project-6.jpg" alt="Usus Legentis Videntur image">
+              <figcaption class="view_header">
+                <p class="view_title">Usus Legentis Videntur</p>
+                <p class="view_category">Photography, Holiday</p>
+              </figcaption>
+            </figure>
+            <div class="view_overlay">
+              <a href="#" class="view_link">перейти</a>
+              <button class="view_zoom" type="button">увеличить</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- /Latest Project -->
+    
+    <!-- Presentation -->
+    <section class="presentation">
+      <div class="container">
+        <i class="presentation_play"></i>
+        <h2 class="presentation_title">Waxom video vresentation</h2>
+        <p class="presentation_description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+        <i class="presentation_time">03:26</i>
+      </div>
+    </section>
+    <!-- /Presentation -->
+    
+    <!-- Excellent -->
+    <section class="excellent">
+      <div class="container">
+        <h2 class="excellent_title">Excellent for Mobile Devices</h2>
+        <p class="excellent_description">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+        <ul class="excellent_features">
+          <li>Nam liber tempor cum soluta nobis eleifend option;</li>
+          <li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+          <li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+          <li>Investigationes demonstraverunt lectores.</li>
+        </ul>
+      </div>
+    </section>
+    <!-- /Excellent -->
+    
+    <!-- Counters -->
+    <section class="counters">
+      <div class="container">
+        <h2 class="visually-hidden">Waxom in numbers</h2>
+        <ul class="counters_list">
+          <li class="counters_item counters_item-clients">
+            <strong class="counters_number">3587</strong>
+            <strong class="counters_description">Satisfied Clients</strong>
+          </li>
+          <li class="counters_item counters_item-coffee">
+            <strong class="counters_number">207</strong>
+            <strong class="counters_description">Cups of coffee</strong>
+          </li>
+          <li class="counters_item counters_item-posts">
+            <strong class="counters_number">2500</strong>
+            <strong class="counters_description">Blog posts</strong>
+          </li>
+          <li class="counters_item counters_item-likes">
+            <strong class="counters_number">873</strong>
+            <strong class="counters_description">Likes</strong>
+          </li>
+          <li class="counters_item counters_item-launched">
+            <strong class="counters_number">900</strong>
+            <strong class="counters_description">We launched</strong>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- /Counters -->
+    
+    <!-- Posts -->
+    <section class="posts">
+      <div class="container">
+        <h2 class="posts_title">Recent Posts</h2>
+        <p class="posts_description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <div class="post_slider">
+          <ul class="contentslider">
+            <li class="contentslider_public">
+              <div class="public">
+                <img src="img/view-post-01.jpg" alt="Lorem ipsum dolor sit amet" class="public_image">
+                <time class="public_time"><span class="public_time-data">30</span><span class="public_time-month">Sep.</span></time>
+                <h3 class="public_title">Lorem ipsum dolor sit amet</h3>
+                <p class="public_description">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                <a href="#" class="public_link">Read More</a>
+              </div>
+            </li>
+            <li class="contentslider_public">
+              <div class="public">
+                <img src="img/view-post-02.jpg" alt="Lorem ipsum dolor sit amet" class="public_image">
+                <time class="public_time"><span class="public_time-data">30</span><span class="public_time-month">Sep.</span></time>
+                <h3 class="public_title">Lorem ipsum dolor sit amet</h3>
+                <p class="public_description">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                <a href="#" class="public_link">Read More</a>
+              </div>
+            </li>
+            <li class="contentslider_public">
+              <div class="public">
+                <img src="img/view-post-03.jpg" alt="Lorem ipsum dolor sit amet" class="public_image">
+                <time class="public_time"><span class="public_time-data">30</span><span class="public_time-month">Sep.</span></time>
+                <h3 class="public_title">Lorem ipsum dolor sit amet</h3>
+                <p class="public_description">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                <a href="#" class="public_link">Read More</a>
+              </div>
+            </li>
+          </ul>
+          <div class="contentslider_control">
+            <button class="contentslider_btn contentslider_btn-prev" type="button">&#8249;</button>
+            <button class="contentslider_btn contentslider_btn-next" type="button">&#8250;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Posts -->
+    
+    <!-- Partners -->
+    <section class="partners">
+      <div class="container">
+        <h2 class="visually-hidden">Our partners</h2>
+        <ul class="partners_list">
+          <li class="partners_item"><a class="partners_link partners_link-berber" href="#"><span class="visually-hidden">The barber Haircuts</span></a></li>
+          <li class="partners_item"><a class="partners_link partners_link-delcious" href="#"><span class="visually-hidden">Delicious</span></a></li>
+          <li class="partners_item"><a class="partners_link partners_link-designers" href="#"><span class="visually-hidden">Designers</span></a></li>
+          <li class="partners_item"><a class="partners_link partners_link-royal" href="#"><span class="visually-hidden">Cafe Royal</span></a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- /Partners -->
+    
+  </main>
+<!-- /Page Main -->
+
+<!-- Page Footer -->
+  <footer class="page_footer">
+    <div class="summary">
+      <div class="container">
+        <div class="summary_block">
+          <h2 class="visually-hidden">About</h2>
+          <a href="#"><img src="" alt="waxom logo"></a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+          <a class="more" href="#">Read More</a>
+        </div>
+        <div class="summary_block">
+          <h2 class="summary_title">Recent Posts</h2>
+          <ul class="summary_list">
+            <li class="summary_item">
+              <a class="summary_link" href="#">
+                <time>September 08, 2015</time>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a class="summary_link" href="#">
+                <time>September 08, 2015</time>
+                <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a class="summary_link" href="#">
+                <time>September 08, 2015</time>
+                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="summary_block">
+          <h2 class="summary_title">Our Twitter</h2>
+          <ul class="summary_list">
+            <li class="summary_item">
+              <a href="@" class="summary_link">
+                <p><span class="summary_tag">@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                <time>3 mins ago</time>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a href="@" class="summary_link">
+                <p>Mirum est <span class="summary_tag">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                <time>5 hours ago</time>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a href="@" class="summary_link">
+                <p>Soluta nobis option <em>bit.ly/1Hniso7</em></p>
+                <time>20 days ago</time>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="summary_block">
+          <h2 class="summary_title">Dribbble Widget</h2>
+          <ul class="summary_list summary_list-widget">
+            <li class="summary_item">
+              <a href="#" class="summary_link">
+                <img src="img/01.png" alt="widget one" class="summary_image">
+                <span class="visually-hidden">widget one</span>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a href="#" class="summary_link">
+                <img src="img/02.png" alt="widget two" class="summary_image">
+                <span class="visually-hidden">widget two</span>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a href="#" class="summary_link">
+                <img src="img/03.png" alt="widget three" class="summary_image">
+                <span class="visually-hidden">widget three</span>
+              </a>
+            </li>
+            <li class="summary_item">
+              <a href="#" class="summary_link">
+                <img src="img/04.png" alt="widget four" class="summary_image">
+                <span class="visually-hidden">widget four</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container clearfix">
+        <ul class="copyright_list copyright_list-info">
+          <li class="copyright_item">Copyright © 2015 <em>Waxom</em></li>
+          <li class="copyright_item"><a class="copyright_link" href="#">Privacy Policy</a></li>
+          <li class="copyright_item"><a class="copyright_link" href="#">FAQ</a></li>
+          <li class="copyright_item"><a class="copyright_link" href="#">Support</a></li>
+        </ul>
+        <ul class="copyright_list copyright_list-design">
+          <li class="copyright_item"><a class="copyright_link" href="#">Only on <em>Envato Market</em></a></li>
+          <li class="copyright_item"><a class="copyright_link" href="#">Designed by <em>ThemeFire</em></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+<!-- /Page Footer -->
+  
 </body>
 </html>
